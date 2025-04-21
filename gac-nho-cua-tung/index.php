@@ -17,7 +17,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
             <itunes:name>Tunna Duong</itunes:name>
             <itunes:email>tunnaduong@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="<?= $domain ?>/cover.png" />
+        <itunes:image href="<?= $domain ?>/cover.jpg" />
         <itunes:category text="Education" />
 
         <?php foreach ($episodes as $ep): ?>
