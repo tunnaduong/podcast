@@ -10,7 +10,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <channel>
         <title>Gác nhỏ của Tùng.</title>
         <link><?= $domain ?></link>
-        <description>Podcast chia sẻ câu chuyện về giáo dục, cuộc sống và bản thân.</description>
+        <description>Podcast chia sẻ câu chuyện về giáo dục, cuộc sống và bản thân. Bài viết từ blog cá nhân của Tunna Duong.</description>
         <language>vi-VN</language>
         <itunes:author>Tunna Duong</itunes:author>
         <itunes:owner>
