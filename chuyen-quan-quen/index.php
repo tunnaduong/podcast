@@ -187,6 +187,23 @@ if (isXmlRequest()) {
             <img src="/chuyen-quan-quen/cover.jpg" alt="Chuyện quán quen Cover" class="cover-image">
             <h1>Chuyện quán quen</h1>
             <p>Podcast chia sẻ câu chuyện về cuộc sống giữa ba con người trong một quán quen.</p>
+            <div style="margin: 20px 0;">
+                <a href="https://open.spotify.com/show/1dj88aG97PLqU6A0HkWlqD" target="_blank"
+                    style="margin: 0 5px; text-decoration: none;">
+                    <img src="/badges/spotify.png" alt="Listen on Spotify" style="height: 40px;">
+                </a>
+                <a target="_blank" style="margin: 0 5px; text-decoration: none;"
+                    href="https://podcasts.apple.com/us/podcast/chuy%E1%BB%87n-qu%C3%A1n-quen/id1838320680?itscg=30200&itsct=podcast_box_badge&ls=1&mttnsubad=1838320680">
+                    <img src="/badges/apple-podcasts.png" alt="Listen on Apple Podcasts" style="height: 40px;" />
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLBPqAGxScH1ssyUreF3YN-xfNAdz8Dr0G" target="_blank"
+                    style="margin: 0 5px; text-decoration: none;">
+                    <img src="/badges/youtube.png" alt="Listen on YouTube" style="height: 40px;">
+                </a>
+                <a href="<?= $domain ?>?format=xml" target="_blank" style="margin: 0 5px; text-decoration: none;">
+                    <img src="/badges/rss.png" alt="Listen on RSS" style="height: 40px;">
+                </a>
+            </div>
         </header>
 
         <main>

@@ -212,6 +212,22 @@ if (isXmlRequest()) {
             <img src="/gac-nho-cua-tung/cover.jpg" alt="Gác nhỏ của Tùng Cover" class="cover-image">
             <h1>Gác nhỏ của Tùng</h1>
             <p>Podcast chia sẻ những câu chuyện, suy ngẫm và trải nghiệm về cuộc sống.</p>
+            <div style="margin: 20px 0;">
+                <a href="https://open.spotify.com/show/4df3zPHP8eThRbeVEWWRZW" target="_blank"
+                    style="margin: 0 5px; text-decoration: none;">
+                    <img src="/badges/spotify.png" alt="Listen on Spotify" style="height: 40px;">
+                </a>
+                <a target="_blank" style="margin: 0 5px; text-decoration: none;"
+                    href="https://podcasts.apple.com/vn/podcast/g%C3%A1c-nh%E1%BB%8F-c%E1%BB%A7a-t%C3%B9ng/id1809711803?l=vi">
+                    <img src="/badges/apple-podcasts.png" alt="Listen on Apple Podcasts" style="height: 40px;" />
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLBPqAGxScH1sUpsCg-BynIa9X9eKORWYL" target="_blank"
+                    style="margin: 0 5px; text-decoration: none;">
+                    <img src="/badges/youtube.png" alt="Listen on YouTube" style="height: 40px;">
+                </a>
+                <a href="<?= $domain ?>?format=xml" target="_blank" style="margin: 0 5px; text-decoration: none;">
+                    <img src="/badges/rss.png" alt="Listen on RSS" style="height: 40px;">
+                </a>
         </header>
 
         <main>
