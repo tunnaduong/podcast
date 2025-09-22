@@ -10,7 +10,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <channel>
         <title>Chuyện quán quen</title>
         <link><?= $domain ?></link>
-        <description>Podcast chia sẻ câu chuyện về cuộc sống giữa hai con người trong một quán quen.</description>
+        <description>Podcast chia sẻ câu chuyện về cuộc sống giữa ba con người trong một quán quen.</description>
         <language>vi-VN</language>
         <itunes:author>Tunna Duong</itunes:author>
         <itunes:owner>
@@ -31,7 +31,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                 <guid><?= $domain . $ep['audio'] ?></guid>
                 <pubDate><?= $ep['pubDate'] ?></pubDate>
                 <itunes:duration><?= $ep['duration'] ?></itunes:duration>
-                <itunes:image href="<?= $domain .  $ep['thumbnail'] ?>" />
+                <itunes:image href="<?= $domain . $ep['thumbnail'] ?>" />
             </item>
         <?php endforeach; ?>
     </channel>
