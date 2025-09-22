@@ -6,5 +6,21 @@
     "pubDate": "Mon, 08 Sep 2025 00:32:38 +0700",
     "duration": "00:37:15",
     "thumbnail": "/cover.jpg"
+  },
+  {
+    "title": "#2: Người yêu cũ và những điều còn lại",
+    "description": "Một cuộc trò chuyện thẳng thắn về cảm giác sau chia tay, cách ta nhìn lại người từng yêu và điều ta chọn làm tiếp theo.",
+    "audio": "/audios/podcast2.mp3",
+    "pubDate": "Sun, 14 Sep 2025 22:26:38 +0700",
+    "duration": "00:53:36",
+    "thumbnail": "/cover.jpg"
+  },
+  {
+    "title": "#3: Mất thời gian hay đang sống?",
+    "description": "Có bao giờ bạn ngồi lướt điện thoại, nghĩ chỉ 5 phút thôi mà quay đi quay lại đã thành 2 tiếng? Hay chờ đợi một ai đó mà thấy cả thế giới như chậm lại? Trong tập podcast này, ba chúng tôi sẽ cùng nhau trò chuyện về những khoảnh khắc tưởng chừng “mất thời gian” trong đời. Liệu mất thời gian có thực sự xấu, hay đôi khi chính nó mới là gia vị làm cuộc sống bớt căng thẳng?",
+    "audio": "/audios/podcast3.mp3",
+    "pubDate": "Sun, 21 Sep 2025 22:05:28 +0700",
+    "duration": "01:35:05",
+    "thumbnail": "/cover.jpg"
   }
 ]
