@@ -114,6 +114,8 @@ if (isXmlRequest()) {
         <meta name="twitter:description"
             content="Podcast chia sẻ những câu chuyện, suy ngẫm và trải nghiệm về cuộc sống." />
         <meta name="twitter:image" content="<?= $domain ?>/cover.jpg" />
+        <link rel="icon" type="image/png" href="/t_radio.png" />
+        <link rel="apple-touch-icon" href="/t_radio.png" />
         <!-- Add RSS feed discovery link -->
         <link rel="alternate" type="application/rss+xml" title="Gác nhỏ của Tùng RSS Feed" href="<?= $domain ?>?format=xml">
         <style>
