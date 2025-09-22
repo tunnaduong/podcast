@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast - Tunna Duong</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        margin-bottom: 0;
+        color: #333;
+      }
+
+      p {
+        margin-top: 0;
+        color: #666;
+      }
+
+      .podcasts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        margin-bottom: 40px;
+      }
+
+      .podcast-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.2s;
+      }
+
+      .podcast-card:hover {
+        transform: translateY(-2px);
+      }
+
+      .podcast-cover {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+      }
+
+      .podcast-content {
+        padding: 20px;
+      }
+
+      .podcast-title {
+        margin: 0 0 10px 0;
+        color: #333;
+      }
+
+      .podcast-description {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .podcast-links {
+        display: flex;
+        gap: 10px;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background-color 0.2s;
+      }
+
+      .btn-primary {
+        background: #007bff;
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background: #0056b3;
+      }
+
+      .btn-secondary {
+        background: #6c757d;
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background: #545b62;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background: #eee;
+        border-radius: 5px;
+      }
+
+      .footer a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 600px) {
+        .podcasts {
+          grid-template-columns: 1fr;
+        }
+
+        .podcast-links {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tunna Radio</h1>
+      <p>Những câu chuyện và suy ngẫm về cuộc sống</p>
+    </header>
+
+    <main>
+      <div class="podcasts">
+        <div class="podcast-card">
+          <img
+            src="/chuyen-quan-quen/cover.jpg"
+            alt="Chuyện quán quen Cover"
+            class="podcast-cover"
+          />
+          <div class="podcast-content">
+            <h2 class="podcast-title">Chuyện quán quen</h2>
+            <p class="podcast-description">
+              Podcast chia sẻ câu chuyện về cuộc sống giữa ba con người trong
+              một quán quen. Những cuộc trò chuyện chân thật về tình yêu, tình
+              bạn và những trải nghiệm trong cuộc sống.
+            </p>
+            <div class="podcast-links">
+              <a href="/chuyen-quan-quen/" class="btn btn-primary"
+                >Nghe Podcast</a
+              >
+              <a href="/chuyen-quan-quen/?format=xml" class="btn btn-secondary"
+                >RSS Feed</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="podcast-card">
+          <img
+            src="/gac-nho-cua-tung/cover.jpg"
+            alt="Gác nhỏ của Tùng Cover"
+            class="podcast-cover"
+          />
+          <div class="podcast-content">
+            <h2 class="podcast-title">Gác nhỏ của Tùng</h2>
+            <p class="podcast-description">
+              Podcast chia sẻ những câu chuyện, suy ngẫm và trải nghiệm về cuộc
+              sống. Từ những bài học về học tập, công việc đến những suy tư về
+              tình yêu và cuộc sống.
+            </p>
+            <div class="podcast-links">
+              <a href="/gac-nho-cua-tung/" class="btn btn-primary"
+                >Nghe Podcast</a
+              >
+              <a href="/gac-nho-cua-tung/?format=xml" class="btn btn-secondary"
+                >RSS Feed</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a href="https://tunnaduong.com/">&copy; 2025 Tunna Duong</a>
+    </footer>
+  </body>
+</html>
