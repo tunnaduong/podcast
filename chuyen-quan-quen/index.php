@@ -114,7 +114,8 @@ if (isXmlRequest()) {
             }
 
             h1 {
-                margin-bottom: 0;
+                margin: 0;
+                text-align: center;
             }
 
             p {
@@ -177,9 +178,10 @@ if (isXmlRequest()) {
     </head>
 
     <body>
-        <a href="/">
+        <a href="/" style="text-decoration: none;display: block;color: black;">
             <img src="/t_radio.png" alt="Tunna Radio" class="logo"
                 style="width: 100px; height: 100px; object-fit: contain;margin: 0 auto;display: block" />
+            <h1>Tunna Radio</h1>
         </a>
         <header>
             <img src="/chuyen-quan-quen/cover.jpg" alt="Chuyện quán quen Cover" class="cover-image">
