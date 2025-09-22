@@ -177,6 +177,10 @@ if (isXmlRequest()) {
     </head>
 
     <body>
+        <a href="/">
+            <img src="/t_radio.png" alt="Tunna Radio" class="logo"
+                style="width: 100px; height: 100px; object-fit: contain;margin: 0 auto;display: block" />
+        </a>
         <header>
             <img src="/chuyen-quan-quen/cover.jpg" alt="Chuyện quán quen Cover" class="cover-image">
             <h1>Chuyện quán quen</h1>
