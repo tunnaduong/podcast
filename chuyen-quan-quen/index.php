@@ -193,9 +193,20 @@ if (isXmlRequest()) {
     </head>
 
     <body>
-        <a href="/" style="text-decoration: none;display: block;color: black;">
-            <img src="/t_radio.png" alt="Tunna Radio" class="logo"
-                style="width: 100px; height: 100px; object-fit: contain;margin: 0 auto;display: block" />
+        <a href="/" style="
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: black;
+          margin: 0 auto;
+        ">
+            <img src="/t_radio.png" alt="Tunna Radio" class="logo" style="
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            display: block;
+          " />
             <h1>Tunna Radio</h1>
         </a>
         <header>
