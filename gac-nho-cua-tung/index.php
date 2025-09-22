@@ -101,6 +101,19 @@ if (isXmlRequest()) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gác nhỏ của Tùng - Podcast by Tunna Duong</title>
+        <meta name="description"
+            content="Podcast chia sẻ những câu chuyện, suy ngẫm và trải nghiệm về cuộc sống. Từ những bài học về học tập, công việc đến những suy tư về tình yêu và cuộc sống." />
+        <meta property="og:title" content="Gác nhỏ của Tùng - Podcast by Tunna Duong" />
+        <meta property="og:description"
+            content="Podcast chia sẻ những câu chuyện, suy ngẫm và trải nghiệm về cuộc sống. Từ những bài học về học tập, công việc đến những suy tư về tình yêu và cuộc sống." />
+        <meta property="og:image" content="<?= $domain ?>/cover.jpg" />
+        <meta property="og:url" content="<?= $domain ?>" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Gác nhỏ của Tùng - Podcast by Tunna Duong" />
+        <meta name="twitter:description"
+            content="Podcast chia sẻ những câu chuyện, suy ngẫm và trải nghiệm về cuộc sống." />
+        <meta name="twitter:image" content="<?= $domain ?>/cover.jpg" />
         <!-- Add RSS feed discovery link -->
         <link rel="alternate" type="application/rss+xml" title="Gác nhỏ của Tùng RSS Feed" href="<?= $domain ?>?format=xml">
         <style>

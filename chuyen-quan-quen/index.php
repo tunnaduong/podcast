@@ -101,6 +101,19 @@ if (isXmlRequest()) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chuyện quán quen - Podcast by Tunna Duong</title>
+        <meta name="description"
+            content="Podcast chia sẻ câu chuyện về cuộc sống giữa ba con người trong một quán quen. Những cuộc trò chuyện chân thật về tình yêu, tình bạn và những trải nghiệm trong cuộc sống." />
+        <meta property="og:title" content="Chuyện quán quen - Podcast by Tunna Duong" />
+        <meta property="og:description"
+            content="Podcast chia sẻ câu chuyện về cuộc sống giữa ba con người trong một quán quen. Những cuộc trò chuyện chân thật về tình yêu, tình bạn và những trải nghiệm trong cuộc sống." />
+        <meta property="og:image" content="<?= $domain ?>/cover.jpg" />
+        <meta property="og:url" content="<?= $domain ?>" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Chuyện quán quen - Podcast by Tunna Duong" />
+        <meta name="twitter:description"
+            content="Podcast chia sẻ câu chuyện về cuộc sống giữa ba con người trong một quán quen." />
+        <meta name="twitter:image" content="<?= $domain ?>/cover.jpg" />
         <!-- Add RSS feed discovery link -->
         <link rel="alternate" type="application/rss+xml" title="Chuyện quán quen RSS Feed" href="<?= $domain ?>?format=xml">
         <style>
