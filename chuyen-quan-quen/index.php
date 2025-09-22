@@ -193,22 +193,26 @@ if (isXmlRequest()) {
     </head>
 
     <body>
-        <a href="/" style="
-          text-decoration: none;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: black;
-          margin: 0 auto;
-        ">
-            <img src="/t_radio.png" alt="Tunna Radio" class="logo" style="
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-            display: block;
-          " />
-            <h1>Tunna Radio</h1>
-        </a>
+        <div style="text-align: center;display: flex;
+            align-items: center;
+            justify-content: center;">
+            <a href="/" style="
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            margin: 0 auto;
+          ">
+                <img src="/t_radio.png" alt="Tunna Radio" class="logo" style="
+              width: 100px;
+              height: 100px;
+              object-fit: contain;
+              display: block;
+            " />
+                <h1 style="margin: 10px 0 0 0">Tunna Radio</h1>
+            </a>
+        </div>
         <header>
             <img src="/chuyen-quan-quen/cover.jpg" alt="Chuyện quán quen Cover" class="cover-image">
             <h1>Chuyện quán quen</h1>
